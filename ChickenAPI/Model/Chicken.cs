@@ -14,7 +14,7 @@ namespace ChickenAPI.Model
 
         [Required]
         [MaxLength(50)]
-        public string Breed { get; set; }
+        public string? Breed { get; set; }
 
         [Range(0, 50)] // Assuming chickens won’t live past 50 years
         public int Age { get; set; }
